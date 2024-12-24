@@ -24,8 +24,6 @@ composer require knotsphp/flushdns
 ```
 
 ## 📚 Usage
-WIP WIP WIP
-
 ```php
 use KnotsPHP\FlushDNS\FlushDNS;
 

@@ -26,7 +26,6 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^8.2",
-    "symfony/process": "^7.2",
     "knotsphp/system": "dev-main"
   },
   "require-dev": {

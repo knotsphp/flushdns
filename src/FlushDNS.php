@@ -3,7 +3,7 @@
 namespace KnotsPHP\FlushDNS;
 
 use KnotsPHP\FlushDNS\Exceptions\OperatingSystemNotSupported;
-use KnotsPHP\System\Contracts\OperatingSystem as OperatingSystemContract;
+use KnotsPHP\System\Contracts\OperatingSystemContract;
 use KnotsPHP\System\Enums\OperatingSystem;
 use KnotsPHP\System\System;
 

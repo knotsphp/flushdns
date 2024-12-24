@@ -13,10 +13,6 @@ It also provides a command line utility: `flushdns`.
 
 Compatible with MacOS, Linux, and Windows.
 
-> ⚠️ **Warning:** Library in active development. 
-> Follow me on [Twitter](https://twitter.com/srwiez) or [BlueSky](https://bsky.app/profile/srwiez.com) for updates. 
-> You can also put a star and watch the repo in the meantime.
-
 ## 🚀 Installation
 
 ```bash

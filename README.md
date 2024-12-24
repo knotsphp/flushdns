@@ -84,6 +84,11 @@ This library is compatible with MacOS, Linux, and Windows.
 
 Some operating systems may require root access to flush the DNS cache.
 
+## 📋 TODO
+- [ ] Add argument to public static method to get a command for a specific OS. (needs knotsphp/system updated)
+- [ ] Add support for more operating systems.
+- [ ] Add support for running elevated commands on MacOS and Linux by passing the password as an argument or having a gui prompt depending of the context. (needs knotsphp/elevated to be written)
+
 ## 🤝 Contributing
 Clone the project and run `composer update` to install the dependencies.
 

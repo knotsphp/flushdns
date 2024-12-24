@@ -22,6 +22,11 @@ class FlushDNS
         return 'sudo systemd-resolve --flush-caches';
     }
 
+    /**
+     * Get the cURL options to use.
+     *
+     * @return non-empty-array<int, mixed>
+     */
     public static function getCurlOpts(): array
     {
         return [

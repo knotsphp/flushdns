@@ -1,16 +1,17 @@
-WIP WIP WIP
-
 # FlushDNS
 
-[//]: # ([![Latest Stable Version]&#40;https://poser.pugx.org/knotsphp/flushdns/v&#41;]&#40;https://packagist.org/packages/knotsphp/flushdns&#41; )
-[//]: # ([![Total Downloads]&#40;https://poser.pugx.org/knotsphp/flushdns/downloads&#41;]&#40;https://packagist.org/packages/knotsphp/flushdns&#41; )
-[//]: # ([![Latest Unstable Version]&#40;https://poser.pugx.org/knotsphp/flushdns/v/unstable&#41;]&#40;https://packagist.org/packages/knotsphp/flushdns&#41; )
-[//]: # ([![License]&#40;https://poser.pugx.org/knotsphp/flushdns/license&#41;]&#40;https://packagist.org/packages/knotsphp/flushdns&#41; )
-[//]: # ([![PHP Version Require]&#40;https://poser.pugx.org/knotsphp/flushdns/require/php&#41;]&#40;https://packagist.org/packages/knotsphp/flushdns&#41; )
-[//]: # ([![GitHub Workflow Status &#40;with event&#41;]&#40;https://img.shields.io/github/actions/workflow/status/knotsphp/flushdns/test.yml?label=Tests&#41;]&#40;https://github.com/knotsphp/flushdns/actions/workflows/test.yml&#41;)
+[![Latest Stable Version](https://poser.pugx.org/knotsphp/flushdns/v)](https://packagist.org/packages/knotsphp/flushdns) 
+[![Total Downloads](https://poser.pugx.org/knotsphp/flushdns/downloads)](https://packagist.org/packages/knotsphp/flushdns) 
+[![Latest Unstable Version](https://poser.pugx.org/knotsphp/flushdns/v/unstable)](https://packagist.org/packages/knotsphp/flushdns) 
+[![License](https://poser.pugx.org/knotsphp/flushdns/license)](https://packagist.org/packages/knotsphp/flushdns) 
+[![PHP Version Require](https://poser.pugx.org/knotsphp/flushdns/require/php)](https://packagist.org/packages/knotsphp/flushdns) 
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/knotsphp/flushdns/test.yml?label=Tests)](https://github.com/knotsphp/flushdns/actions/workflows/test.yml)
 
 FlushDNS is a PHP library to flush the DNS cache of the current machine.
 
+It also provides a command line utility: `flushdns`.
+
+Compatible with MacOS, Linux, and Windows.
 
 ## 🚀 Installation
 

@@ -22,6 +22,13 @@ class FlushDNS
         return 'sudo systemd-resolve --flush-caches';
     }
 
+    public static function getCurlOpts(): array
+    {
+        return [
+            CURLOPT_DNS_CACHE_TIMEOUT => 0,
+        ];
+    }
+
     /**
      * Check if the command needs elevation.
      */

@@ -35,6 +35,30 @@ $command = FlushDNS::getCommand();
 $needsElevation = FlushDNS::needsElevation();
 ```
 
+This library also comes some helpers fnuctions for Curl:
+
+```php
+// Get options to ignore dns cache
+$flushDnsOptions = FlushDNS::getCurlOpts();
+
+// Make the request
+$curl = curl_init();
+curl_setopt_array($curl, array_merge(
+    [
+        CURLOPT_URL => "https://app.unolia.com/api/v1/domains",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => [
+            "Accept: application/json",
+            "Authorization: Bearer 123"
+        ],
+    ],
+    $flushDnsOptions,
+));
+$response = curl_exec($curl);
+$domains = json_decode($response);
+curl_close($curl);
+```
+
 ## 📚 Use in command line
 
 You can also use this library in the command line by using the `flushdns` command.

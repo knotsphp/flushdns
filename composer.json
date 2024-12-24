@@ -3,6 +3,12 @@
   "description": "Flush DNS cache on your system",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "dns",
+    "flush",
+    "cache",
+    "cli"
+  ],
   "autoload": {
     "psr-4": {
       "KnotsPHP\\FlushDNS\\": "src/"

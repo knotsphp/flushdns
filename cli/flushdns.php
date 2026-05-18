@@ -1,16 +1,18 @@
 #!/usr/bin/env php
 <?php
 
+use Composer\InstalledVersions;
 use KnotsPHP\FlushDNS\FlushDNS;
+use NunoMaduro\Collision\Provider;
 
 error_reporting(E_ALL ^ E_DEPRECATED ^ E_NOTICE);
 
-if (! class_exists('\Composer\InstalledVersions')) {
+if (! class_exists(InstalledVersions::class)) {
     require __DIR__.'/../vendor/autoload.php';
 }
 
-if (class_exists('\NunoMaduro\Collision\Provider')) {
-    (new \NunoMaduro\Collision\Provider)->register();
+if (class_exists(Provider::class)) {
+    (new Provider)->register();
 }
 
 $ipVersion = null;

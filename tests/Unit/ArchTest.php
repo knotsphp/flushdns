@@ -1,5 +1,7 @@
 <?php
 
+use KnotsPHP\FlushDNS\Exceptions\Exception;
+
 arch('enums')
     ->expect('KnotsPHP\FlushDNS\Enums')
     ->toBeEnums();
@@ -14,7 +16,7 @@ arch('contracts')
 
 arch('exceptions')
     ->expect('KnotsPHP\FlushDNS\Exceptions')
-    ->toExtend(\KnotsPHP\FlushDNS\Exceptions\Exception::class)
-    ->ignoring(\KnotsPHP\FlushDNS\Exceptions\Exception::class);
+    ->toExtend(Exception::class)
+    ->ignoring(Exception::class);
 
 arch('debug')->preset()->php();

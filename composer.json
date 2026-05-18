@@ -26,7 +26,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^8.2",
-    "knotsphp/system": "^1.0"
+    "knotsphp/system": "^1.0.2"
   },
   "require-dev": {
     "laravel/pint": "^1.18",
